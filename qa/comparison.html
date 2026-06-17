@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saffron Bloom QA Comparison</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #ffffff;
+        color: #1f2521;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          sans-serif;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+        padding: 18px;
+      }
+
+      figure {
+        margin: 0;
+        border: 1px solid #d9ddd7;
+      }
+
+      figcaption {
+        padding: 10px 12px;
+        font-size: 14px;
+        font-weight: 700;
+        border-bottom: 1px solid #d9ddd7;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <figure>
+        <figcaption>Source direction: Saffron Bloom mock</figcaption>
+        <img src="./source-saffron-bloom.png" alt="" />
+      </figure>
+      <figure>
+        <figcaption>Implementation: desktop full-page screenshot</figcaption>
+        <img src="./desktop-full.png" alt="" />
+      </figure>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playwrite+IN:wght@300;400&display=swap');
+
+:root {
+  --paper: #ffffff;
+  --ink: #1f2521;
+  --muted: #65716a;
+  --green: #1f4c3d;
+  --saffron: #e2972d;
+  --coral: #d67043;
+  --blush: #fff4ef;
+  --surface-tint: #f8fbf6;
+  --sans: 'Manrope', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+  --script: 'Playwrite IN', 'Segoe Script', cursive;
+
+  color: var(--muted);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 16px;
+  font-synthesis: none;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--paper);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
