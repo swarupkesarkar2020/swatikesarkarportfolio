@@ -1,6 +1,6 @@
 # Swati Kesarkar Portfolio
 
-A minimalist Vite + React + TypeScript portfolio for Swati Kesarkar, designed around the Saffron Bloom direction for a Wipro Marathi linguistics application while also highlighting elementary teaching and chess coaching.
+A minimalist Vite + React + TypeScript portfolio for Swati Kesarkar, designed around the Saffron Bloom direction for Marathi linguistics opportunities while also highlighting elementary teaching and chess coaching.
 
 ## Local Development
 

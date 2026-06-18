@@ -32,6 +32,6 @@
 
 **Follow-up Polish**
 - Optional P3: add a small real portrait only if Swati wants one and supplies the image.
-- Optional P3: tune copy for a specific Wipro job description once the exact posting is available.
+- Optional P3: tune copy for a specific job description once the exact posting is available.
 
 final result: passed

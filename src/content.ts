@@ -1,7 +1,7 @@
 export const portfolio = {
   name: 'Swati Kesarkar',
   age: '40',
-  application: 'Wipro Marathi Linguistics Application',
+  application: 'Marathi Linguistics Portfolio',
   headline: 'Marathi language, learning, and strategy with cultural fluency.',
   intro:
     'A language professional with Marathi-medium education, a bachelor\'s degree in Marathi Literature, B.Ed. training with Marathi specialization, classroom experience, chess coaching, and customer-facing communication skills.',
