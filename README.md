@@ -17,6 +17,8 @@ npm run build
 
 ## Editing Content
 
-Most visible copy and placeholders live in `src/content.ts`.
+Most visible copy lives in `src/content.ts`.
 
 The hero image is stored at `public/assets/saffron-bloom-hero.png`.
+
+The downloadable resume is stored at `public/assets/swati-kesarkar-resume.pdf`.

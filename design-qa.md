@@ -20,14 +20,15 @@
 **Patches Made Since Previous QA Pass**
 - Removed the global opacity fade-in because the first screenshot captured the page in a washed-out transitional state.
 - Tightened the hero height so the first viewport shows the portfolio signal immediately and leaves a hint of the next content.
+- Updated the site with verified resume content: Marathi Literature degree, B.Ed. Marathi specialization, Marathi-medium schooling, IT/typewriting certifications, Fulton County School District paraprofessional role, Chess Zone coaching, JCPenney customer service, and real contact details.
+- Attached the resume PDF at `public/assets/swati-kesarkar-resume.pdf` and linked the hero resume button to it.
 
 **Open Questions**
-- Exact email, phone, location, resume URL, credentials, references, and verified achievements still need to be replaced before submission.
+- Optional references, portfolio samples, and application-specific language examples can still be added before submission.
 
 **Implementation Checklist**
-- Replace placeholder contact details in `src/content.ts`.
-- Replace the resume `#` link in `src/content.ts` with a real resume PDF or application URL.
-- Add verified credentials and Marathi language details to the highlights list.
+- Review whether the public site should show the resume's full street address or keep the current public location as Alpharetta, GA.
+- Add references or work samples if they are required by the application.
 
 **Follow-up Polish**
 - Optional P3: add a small real portrait only if Swati wants one and supplies the image.

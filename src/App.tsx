@@ -9,6 +9,7 @@ import {
   MapPin,
   Phone,
   Sparkles,
+  Globe,
 } from 'lucide-react'
 import './App.css'
 import { portfolio } from './content'
@@ -44,8 +45,13 @@ function App() {
                 View language strengths
                 <ArrowRight aria-hidden="true" size={18} />
               </a>
-              <a className="button secondary" href={portfolio.resumeUrl}>
-                Resume placeholder
+              <a
+                className="button secondary"
+                href={portfolio.resumeUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download resume
                 <Download aria-hidden="true" size={18} />
               </a>
             </div>
@@ -104,6 +110,43 @@ function App() {
           </article>
         </section>
 
+        <section className="section timeline-section" id="education">
+          <div className="section-heading compact">
+            <p className="script-label">Education</p>
+            <h2>Formal Marathi study with teaching preparation.</h2>
+          </div>
+          <div className="timeline-list">
+            {portfolio.education.map((item) => (
+              <article className="timeline-row" key={item.title}>
+                <div>
+                  <h3>{item.title}</h3>
+                  <p>{item.detail}</p>
+                </div>
+                <span>{item.years}</span>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section className="section timeline-section" id="experience">
+          <div className="section-heading compact">
+            <p className="script-label">Experience</p>
+            <h2>Classroom, coaching, and customer communication.</h2>
+          </div>
+          <div className="timeline-list">
+            {portfolio.experience.map((item) => (
+              <article className="timeline-row" key={`${item.title}-${item.role}`}>
+                <div>
+                  <h3>{item.title}</h3>
+                  <p className="timeline-role">{item.role}</p>
+                  <p>{item.body}</p>
+                </div>
+                <span>{item.years}</span>
+              </article>
+            ))}
+          </div>
+        </section>
+
         <section className="section values-section">
           <div className="section-heading compact">
             <p className="script-label">Teaching Values</p>
@@ -123,7 +166,7 @@ function App() {
         <section className="section highlights-section">
           <div className="section-heading compact">
             <p className="script-label">Application Notes</p>
-            <h2>Ready for verified details before submission.</h2>
+            <h2>Verified strengths for Marathi language work.</h2>
           </div>
           <div className="highlight-panel">
             <BookOpenText aria-hidden="true" size={24} />
@@ -153,6 +196,10 @@ function App() {
             <span>
               <MapPin aria-hidden="true" size={18} />
               {portfolio.location}
+            </span>
+            <span>
+              <Globe aria-hidden="true" size={18} />
+              {portfolio.contact.website}
             </span>
           </address>
         </section>

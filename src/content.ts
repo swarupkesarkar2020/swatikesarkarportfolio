@@ -2,51 +2,97 @@ export const portfolio = {
   name: 'Swati Kesarkar',
   age: '40',
   application: 'Wipro Marathi Linguistics Application',
-  headline: 'Language, learning, and strategy taught with patience.',
+  headline: 'Marathi language, learning, and strategy with cultural fluency.',
   intro:
-    'A portfolio for a Marathi linguistics application that also reflects Swati Kesarkar\'s work as an elementary school teacher and chess coach.',
-  location: 'Location placeholder',
-  resumeUrl: '#',
+    'A language professional with Marathi-medium education, a bachelor\'s degree in Marathi Literature, B.Ed. training with Marathi specialization, classroom experience, chess coaching, and customer-facing communication skills.',
+  location: 'Alpharetta, GA',
+  resumeUrl: '/assets/swati-kesarkar-resume.pdf',
   nav: [
     { label: 'About', href: '#about' },
+    { label: 'Education', href: '#education' },
+    { label: 'Experience', href: '#experience' },
     { label: 'Teaching', href: '#teaching' },
-    { label: 'Chess', href: '#chess' },
     { label: 'Marathi', href: '#marathi' },
     { label: 'Contact', href: '#contact' },
   ],
   contact: {
-    email: 'email@example.com',
-    phone: '+1 (000) 000-0000',
-    linkedin: 'LinkedIn profile placeholder',
+    email: 'swati.kesarkar22@gmail.com',
+    phone: '(470) 939-9800',
+    website: 'swatikesarkar.com',
   },
   credibility: [
-    'Elementary School Teacher',
+    'Marathi Literature Graduate',
+    'Pre-K Instructional Paraprofessional',
     'Chess Coach',
-    'Marathi Linguistics Applicant',
   ],
   about: [
-    'At 40, Swati brings mature classroom judgment, calm communication, and a student-first way of explaining ideas.',
-    'Her work sits at a useful intersection: early learning, language sensitivity, and the disciplined thinking that chess develops.',
-    'This first version uses placeholders for credentials, school details, references, and achievements so every claim can be updated with verified information.',
+    'Swati has a lifelong connection to Marathi language and culture, with formal study in Marathi literature, grammar, linguistics, and literary analysis.',
+    'Her work across teaching, chess coaching, and customer service has strengthened her English communication, digital confidence, and ability to explain complex ideas clearly.',
+    'She brings cultural authenticity, attention to detail, and a learner-centered communication style to Marathi language work.',
   ],
   focusAreas: [
     {
       label: 'Elementary Teaching',
-      title: 'Structured support for young learners',
+      title: 'Pre-K classroom support',
       body:
-        'Patient explanations, age-appropriate routines, and a warm classroom presence for children who need clarity and confidence.',
+        'Instructional Teaching Paraprofessional experience with Fulton County School District, supporting instruction, classroom routines, one-on-one help, and small group learning.',
     },
     {
       label: 'Chess Coaching',
       title: 'Strategy made approachable',
       body:
-        'Step-by-step coaching that connects pattern recognition, planning, discipline, and creative problem solving.',
+        'Professional Chess Coach experience with elementary students in after-school clubs, teaching fundamentals, strategy, sportsmanship, and critical thinking.',
     },
     {
       label: 'Marathi Language',
-      title: 'Cultural and linguistic care',
+      title: 'Native-level Marathi foundation',
       body:
-        'Application-ready positioning for Marathi language work, with room to add verified fluency, dialect, translation, or transcription details.',
+        'Marathi-medium schooling, Marathi Literature degree, B.Ed. Marathi specialization, and typewriting certification in Marathi and English.',
+    },
+  ],
+  education: [
+    {
+      title: 'K. G. Joshi College of Arts',
+      detail: 'Bachelor\'s in Marathi Literature',
+      years: '2004 - 2007',
+    },
+    {
+      title: 'Pillai\'s College of Education and Research',
+      detail: 'Bachelor\'s in Education, Marathi Specialization',
+      years: '2007 - 2008',
+    },
+    {
+      title: 'Brahman Vidyalaya Marathi Medium School, Thane',
+      detail: 'Marathi-medium primary education and literacy foundation',
+      years: '1991 - 2001',
+    },
+    {
+      title: 'Maharashtra State Certifications',
+      detail: 'Information Technology; Marathi and English Typewriting',
+      years: '2006 - 2007',
+    },
+  ],
+  experience: [
+    {
+      title: 'Fulton County School District',
+      role: 'Instructional Teaching Paraprofessional',
+      years: 'Sep 2024 - Present',
+      body:
+        'Supports a Pre-K classroom through instruction, classroom activities, one-on-one and small group student support, organization, and a positive learning environment.',
+    },
+    {
+      title: 'Chess Zone',
+      role: 'Professional Chess Coach',
+      years: 'June 2023 - July 2024',
+      body:
+        'Coached elementary students in after-school chess clubs, teaching fundamentals, strategy, sportsmanship, and critical thinking.',
+    },
+    {
+      title: 'JCPenney',
+      role: 'Store Associate and Customer Service Representative',
+      years: 'July 2018 - Present',
+      body:
+        'Assists customers, processes transactions, maintains merchandise displays, and supports a positive shopping experience.',
     },
   ],
   values: [
@@ -67,10 +113,10 @@ export const portfolio = {
     },
   ],
   highlights: [
-    'Add verified teaching credentials or certifications.',
-    'Add school name, grade levels, and classroom responsibilities.',
-    'Add chess coaching levels, formats, or student outcomes.',
-    'Add Marathi language samples, dialect context, or assessment details.',
-    'Add references, resume PDF, or application-specific links.',
+    'Marathi-medium education in Thane, developing Marathi literacy, reading comprehension, and written communication.',
+    'Bachelor\'s in Marathi Literature with study of grammar, linguistics, literary analysis, and classical and modern Marathi texts.',
+    'B.Ed. with Marathi specialization, including curriculum development, teaching methods, classroom instruction, and assessment practices.',
+    'Maharashtra State Certificate in Information Technology, plus Marathi and English typewriting certification.',
+    'Comfortable with computers, digital platforms, and modern AI software.',
   ],
 }
